@@ -35,7 +35,7 @@ subnet 192.168.1.0 netmask 255.255.255.0 {
   sudo apt update
   sudo apt install isc-dhcp-server -y
 
-2. DNS Server
+### 2. DNS Server
 
 Install paket:
 
@@ -64,7 +64,7 @@ $TTL    604800
 ns      IN      A       192.168.1.1
 www     IN      A       192.168.1.10
 
-3. Firewall (UFW)
+### 3. Firewall (UFW)
 
 Aktifkan UFW:
 
